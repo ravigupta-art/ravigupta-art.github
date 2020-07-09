@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="noindex">
+        <title>400 BAD REQUEST</title>
+        <meta name="description" content="ERROR 400 BAD REQUEST">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+        /* 0 to 320 */
+		body {
+        font-size: 25vw;
+        color:#FFFFFF;
+        background-color:#339999; 
+        text-align:center;
+         }
+        a:link {
+        color: #0F2F2F;
+        }
+
+        /* visited link */
+        a:visited {
+        color: #0F2F2F;
+        }
+
+        /* mouse over link */
+        a:hover {
+        color: #FFFFFF;
+        }
+
+        /* selected link */
+        a:active {
+        color: #0F2F2F;
+        }
+            
+		@media (min-width: 321px) {
+        body {
+        font-size: 20vw; 
+         }
+		}
+        @media (min-width: 426px) {
+        body {
+        font-size: 15vw; 
+         }
+		}
+		@media (min-width: 576px) {
+        body {
+        font-size: 12vw; 
+         }
+		}     
+        @media (min-width: 769px) { 
+           body {   
+            font-size: 10vw;
+          }
+         }
+        @media (min-width: 1025px) { 
+           body {   
+            font-size: 08vw;
+          }
+         }
+        @media (min-width: 1441px) { 
+           body {   
+            font-size: 05vw;
+          }
+         }
+       </style>
+    </head>
+   
+    <body class="selector">
+    <h1 style="color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:0.248em; margin-top:10vh" >ERROR 400 - BAD REQUEST</h1>
+       <p style="color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:0.185em">Your request resulted in an error.</p>
+       <p style="color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:0.20em; margin-top:4vh"><a href="https://ravigupta.me/"> GO TO HOME PAGE </a></p>
+
+</body>
+</html>
+
