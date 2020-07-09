@@ -1,0 +1,108 @@
+  .navbar-inverse {
+	  width: 100%;
+	  padding-bottom: 10px;
+	  padding-top: 10px;
+  }
+  #projectTitle {
+	 /*height: 100vh;*/
+	 /*padding-top: 50px;*/
+	 padding-bottom: 20px;
+	 /*background-color: #f2f2f2;*/
+	 background-color:#ffffff;
+   }  
+  #projectContent {
+	  margin-top:0px;
+  }
+  #projectContent h3 {
+    font-size: 18px;
+    font-weight: 600;
+   }
+   
+   figcaption{
+	  margin-top:10px;
+	  margin-bottom:20px;
+  }
+  .project-intro {
+	  margin-top: 10vh;
+	  margin-bottom: 0vh;
+   }
+  .project-intro h1 {
+	  font-size:26px;
+	  margin-top: 35px;
+	  margin-bottom: 15px;
+	  font-weight:bold;
+  }
+  .project-intro p{
+	  margin-bottom: 20px;
+	  font-size:17px;
+	  color:#333;
+	  font-weight:400; 
+  }
+  
+  #projectRotator{
+	  font-size:16px;
+	  margin-top:50px;
+	  margin-bottom:50px;
+  }
+  
+  .fbdcrumb{
+   font-size:16px;
+   margin-bottom:-5px;
+}
+  
+	  
+  .tabButtonText{
+	  font-family: 'Open Sans', sans-serif;
+	  font-size:18px ; 
+	  font-weight:600 ;
+	  padding-top:10px;
+	  padding-bottom:10px;
+  }
+
+@media only screen and (max-width: 444px) {
+    .fbdcrumb  {
+        font-size:10px;
+  }
+  }  
+  
+  @media only screen and (max-width: 991px) {
+    .tabButtonText  {
+        font-size:14px;
+  }
+  }
+  
+   @media only screen and (max-width: 767px) {
+    .tabButtonText  {
+        font-size:12px;
+  }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .tabButtonText  {
+        font-size:16px;
+  }
+   .btn-group-justified>.btn,.btn-group-justified>.btn-group{
+	display: table-cell;
+	float: left;
+	width: 100%;
+  }
+  }
+  
+   @media only screen and (max-height: 870px) {
+	  #projectTitle{
+		  margin-top: 5vh;
+	  }
+  }
+ 
+   @media only screen and (max-height: 568px) {
+	  #projectTitle{
+		  margin-top: 10vh;
+	  }
+  }
+  
+   @media only screen and (max-height: 440px) {
+	  #projectTilte{
+		  margin-top: 20vh;
+	  }
+  }
+	

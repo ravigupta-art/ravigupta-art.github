@@ -1,0 +1,53 @@
+  .navbar-inverse {
+	  width: 100%;
+	  padding-bottom: 10px;
+	  padding-top: 10px;
+  }
+  #blogSection {
+	 min-height: 80vh;
+	 /*padding-top: 50px;*/
+	 padding-bottom: 20px;
+	 background-color: #f2f2f2; 
+   } 
+  .blog {
+	  margin-top: 20vh;
+	  margin-bottom:50px;
+   }
+  .blog h1 {
+	  font-size:28px;
+	  margin-top: 15px;
+	  margin-bottom: 60px;
+	  font-weight:bold;
+  }
+  .blog p{
+	  margin-bottom: 20px;
+	  font-size:20px;
+	  color:#333;
+	  font-weight:400; 
+  }
+  
+  .blog img{
+	  margin-top:60px;
+  }
+  
+  .blog a{
+	  text-decoration:underline;
+	  color: darkblue;
+  }
+   @media only screen and (max-height: 870px) {
+	  #blogSection{
+		  margin-top: 5vh;
+	  }
+  }
+ 
+   @media only screen and (max-height: 568px) {
+	  #blogSection{
+		  margin-top: 10vh;
+	  }
+  }
+  
+   @media only screen and (max-height: 440px) {
+	  #blogSection{
+		  margin-top: 20vh;
+	  }
+  }

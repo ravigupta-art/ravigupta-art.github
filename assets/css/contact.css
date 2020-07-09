@@ -1,0 +1,53 @@
+  .navbar-inverse {
+	  width: 100%;
+	  padding-bottom: 10px;
+	  padding-top: 10px;
+  }
+  #contactSection {
+	 min-height: 80vh;
+	 /*padding-top: 50px;*/
+	 padding-bottom: 20px;
+	 background-color: #f2f2f2; 
+   } 
+  .contact {
+	  margin-top: 20vh;
+	  margin-bottom: 0vh;
+   }
+  .contact h1 {
+	  font-size:28px;
+	  margin-top: 15px;
+	  margin-bottom: 60px;
+	  font-weight:bold;
+  }
+  .contact p{
+	  margin-bottom: 20px;
+	  font-size:20px;
+	  color:#333;
+	  font-weight:400; 
+  }
+  
+  .contact img{
+	  margin-top:60px;
+  }
+  
+  .contact a{
+	  text-decoration:underline;
+	  color: darkblue;
+  }
+   @media only screen and (max-height: 870px) {
+	  #contactSection{
+		  margin-top: 5vh;
+	  }
+  }
+ 
+   @media only screen and (max-height: 568px) {
+	  #contactSection{
+		  margin-top: 10vh;
+	  }
+  }
+  
+   @media only screen and (max-height: 440px) {
+	  #contactSection{
+		  margin-top: 20vh;
+	  }
+  }

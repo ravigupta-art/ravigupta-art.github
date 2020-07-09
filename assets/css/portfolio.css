@@ -1,0 +1,84 @@
+  .navbar-inverse {
+	  width: 100%;
+	  padding-bottom: 10px;
+	  padding-top: 10px;
+  }
+  #portfolioSection1 {
+	 /*height: 100vh;*/
+	 /*padding-top: 50px;*/
+	 padding-bottom: 20px;
+	 background-color: #f2f2f2; 
+   }  
+  #portfolioSection2 {
+	  margin-top:0px;
+  }
+  #portfolioSection2 h3 {
+    font-size: 18px;
+    font-weight: 600;
+   }
+  .portfolio-intro {
+	  margin-top: 10vh;
+	  margin-bottom: 0vh;
+   }
+  .portfolio-intro h1 {
+	  font-size:26px;
+	  margin-top: 15px;
+	  margin-bottom: 25px;
+	  font-weight:bold;
+  }
+  .portfolio-intro p{
+	  margin-bottom: 20px;
+	  font-size:17px;
+	  color:#333;
+	  font-weight:400; 
+  }
+  .tabButtonText{
+	  font-family: 'Open Sans', sans-serif;
+	  font-size:18px ; 
+	  font-weight:600 ;
+	  padding-top:10px;
+	  padding-bottom:10px;
+  }
+
+  
+  @media only screen and (max-width: 991px) {
+    .tabButtonText  {
+        font-size:14px;
+  }
+  }
+  
+   @media only screen and (max-width: 767px) {
+    .tabButtonText  {
+        font-size:12px;
+  }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .tabButtonText  {
+        font-size:16px;
+  }
+   .btn-group-justified>.btn,.btn-group-justified>.btn-group{
+	display: table-cell;
+	float: left;
+	width: 100%;
+  }
+  }
+  
+   @media only screen and (max-height: 870px) {
+	  #portfolioSection1{
+		  margin-top: 5vh;
+	  }
+  }
+ 
+   @media only screen and (max-height: 568px) {
+	  #portfolioSection1{
+		  margin-top: 10vh;
+	  }
+  }
+  
+   @media only screen and (max-height: 440px) {
+	  #portfolioSection1{
+		  margin-top: 20vh;
+	  }
+  }
+	
